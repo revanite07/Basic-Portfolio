@@ -3,18 +3,18 @@ body {
     width: 960px;
     height: 960px;
 }
-a.nav-link:link {
+.nav-link:link {
     color: rgb(37, 156, 156);
 }
-a.nav-link:visited {
+.nav-link:visited {
     color: gray;
 }
 
-a.nav-link:hover {
+.nav-link:hover {
     color: rgb(8, 8, 8);
 }
 
-a.nav-link:active {
+.nav-link:active {
     color: red;
 }
 input[type=submit]:active {
@@ -57,10 +57,10 @@ font-family: 'Monoton', cursive;
 font-family: 'Aldrich', sans-serif;
 float: right;
 padding: 2%;
-margin-top: -88%;
-margin-right: -22%;
-width: 122%;
-background-color: white;
+margin-top: -90%;
+margin-right: -30%;
+width: 130%;;
+
 }
 .navbar2 {
     font-family: 'Black And White Picture', sans-serif;
@@ -71,9 +71,9 @@ background-color: white;
     float: right;
     padding: 2%;
     margin-top: 1%;
-    margin-right: -22%;
-    width: 122%;
-    background-color: white;
+    margin-right: -30%;
+    width: 130%;
+    
     }
 
 h2 {
@@ -86,7 +86,7 @@ h2 {
     margin-top: 1%;
     margin-left: 1%;
     font-size: 28px;
-    color: rgb(38, 156, 156);
+   color: rgb(21, 126, 126);
 }
 
  .main {
@@ -152,18 +152,7 @@ footer {
     width: 1145px;
     
 }
-.contactnav {
-    font-family: 'Black And White Picture', sans-serif;
-    font-family: 'Permanent Marker', cursive;
-    font-family: 'Orbitron', sans-serif;
-    font-family: 'Monoton', cursive;
-    font-family: 'Aldrich', sans-serif;
-    float: right;
-    padding: 2%;
-    margin-top: 3%;
-    margin-right: 31%;
-    width: 65%;
-    background-color: white;
+
     
 
 }
@@ -226,97 +215,101 @@ input[type=text], select, textarea {
         text-align: center;
         position: absolute;
     }
-
-    .portnav {
-        font-family: 'Black And White Picture', sans-serif;
-        font-family: 'Permanent Marker', cursive;
-        font-family: 'Orbitron', sans-serif;
-        font-family: 'Monoton', cursive;
-        font-family: 'Aldrich', sans-serif;
-        float: right;
-        padding: 2%;
-        margin-top: 1%;
-        margin-right: 31%;
-        width: 65%;
-        background-color: white;
-    }
-
-    div.gallery {
-    font-family: 'Black And White Picture', sans-serif;
-    font-family: 'Permanent Marker', cursive;
-    font-family: 'Orbitron', sans-serif;
+   
+   .container {
+       margin-left: 21%;
+       margin-top: -1%;
+       width: 75%;
+   }
+   .h2port {
+    margin-top: 3%;
+    margin-left: 15%;
+   }
+   .navbar3{
+   font-family: 'Black And White Picture', sans-serif;
+   font-family: 'Permanent Marker', cursive;
+   font-family: 'Orbitron', sans-serif;
     font-family: 'Monoton', cursive;
     font-family: 'Aldrich', sans-serif;
-    background-color: rgb(78, 78, 78);
-    width: 100%;
-    float: right;
-    color: white;
-    border-color: black;
-    
-    text-align: center;
-    
-    }
-    
-    div.gallery:hover {
-        border: 1px solid #777;
-    }
-    
-    div.gallery img {
-        width: 100%;
-        height: auto;
-    }
-    
-    div.desc {
-        padding: 15px;
-        text-align: center;
-    }
-    
-    
-    .hangman {
-        padding: 6px;
+   margin-top: 0%;
+   margin-right: -30%;
+   width: 130%;
+   padding: 2%;
+   }
+   @media only screen and (max-width: 768px) {
+     
+    .main {
+        width: 60%;
         float: left;
-        width: 20%;
+        margin-top: 13%;
         margin-right: 1%;
-        margin-left: 15%;
-    margin-bottom: 1%;
-    margin-top: 8%;
-    }
-    .iksar {
-        padding: 6px;
+       }  
+       .navbar, .navbar2 {
+        width: 80%;
         float: left;
-        width: 20%;
-        margin-right: 1%;
-        margin-left: 6%;
-        margin-bottom: 1%;
-        margin-top: 8%;
-    }
-    .trivia {
-        padding: 6px;
-        float: left;
-        width: 20%;
-        margin-right: 5%;
-        margin-left: 29%;
-        margin-bottom: 1%;
         margin-top: 1%;
     }
-    .widget {
-        padding: 6px;
+    footer {
+        width: 60%;
         float: left;
-        width: 24.99999%;
+    }
+    .h2port{
+        float: left;
+        margin-top: 11%;
+        margin-left: -46%;
+    }
+    .container {
+       margin-left: 5%;
+       margin-top: -1%;
+    }
+    .msgbox {
+        width: 63%;
+        margin-right: 27%;
+    }
+    .contactfoot {
+        margin-top: 120%;
+        width: 100%;
+    }
+    .contacth2 {
+        margin-top: -9%;
+        margin-left: -4%;
+    }
+   }
+   @media only screen and (max-width: 600px) {
+    .main {
+        width: 60%;
+        float: left;
+        margin-top: 13%;
         margin-right: 1%;
-        margin-left: 1%;
-        margin-bottom: 1%;
-        margin-top:1%;
-    }
-    .rps {
-        padding: 6px;
+       }  
+    .navbar {
+        width: 62%;
         float: left;
-        width: 23%;
-        margin-right: 18%;
-        margin-left: -52%;
-        margin-bottom: 1%;
-        margin-top: 30%;
+        margin-top: 1%;
     }
-   .portimg {
-       margin-right: 1%;
+    .navbar2 {
+        width: 62%;
+        float: left;
+        margin-top: 1%;
+    }
+    .container {
+        margin-left: 4%;
+    }
+    .h2port {
+        float: left;
+        margin-top: 11%;
+        margin-left: -28%
+    }
+    .msgbox {
+        width: 50%;
+        margin-right: 44%;
+    }
+    .contactfoot {
+        margin-top: 157%;
+        width: 100%;
+    }
+    .contacth2 {
+    margin-top: -11%;
+    margin-left: -6%;
+    }
    }
